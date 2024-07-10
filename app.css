@@ -18,9 +18,9 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 2rem;
-    border: 1px solid var(--stroke-15-card, rgba(255, 255, 255, 0.40));
-    background: var(--neutral-neutral-25, rgba(248, 248, 248, 0.05));
-    box-shadow: 0px 24px 32px -12px var(--neutral-neutral-410, rgba(18, 18, 18, 0.10)), 2px 4px 16px 0px rgba(248, 248, 248, 0.06) inset;
+    border: 1px solid var(rgba(255, 255, 255, 0.40));
+    background: var(--neutral-neutral-25, rgba(40, 40, 40, 0.35));
+    box-shadow: 2px 4px 16px 0px rgba(248, 248, 248, 0.06) inset, 0px 54px 32px -16px rgba(5, 5, 5, 0.10), 0px 24px 24px -12px rgba(5, 5, 5, 0.15), 0px 6px 12px -4px rgba(5, 5, 5, 0.25), 0px 4px 4px -4px rgba(5, 5, 5, 0.25), 0px 4px 1.5px -4px rgba(5, 5, 5, 0.50);
     backdrop-filter: blur(50px);
     cursor: move;
     position: absolute;
@@ -29,6 +29,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 
 .card-content {
     font-family: sans-serif;
